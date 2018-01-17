@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Candidates Overview</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div id="header-row" class="row">
+            <div id="title" class="col-9 offset-md-1 col-md-8 my-auto p-3">
+                <span>Candidates Overview</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="row py-3">
+            <div class="col-12 col-md-8">
+                <h4>All Candidates</h4>
+            </div>
+            <div class=" col-md-4">
+                <div class="input-group mt-1 mb-1">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </div>
+                    <form class="form-inline ">
+                        <input class="form-control mr-sm-2 searchinput" id="search" type="search" placeholder="Search by Name" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-left:20px;">Please click on candidate name to see details</div>
+        <hr>
+        <div class="candidateInfo mt-2">
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

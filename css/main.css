@@ -1,0 +1,28 @@
+#title {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#header-row {
+    background-color: #AA3939;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.custom-row {
+    padding: 30px;
+}
+
+.candidate-name{
+    font-size: 25px;
+    color: black;
+}
+
+.candidate-name:hover{
+    text-decoration: none;
+    color:black;
+}
